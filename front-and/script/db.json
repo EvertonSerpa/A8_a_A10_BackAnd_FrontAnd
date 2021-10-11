@@ -1,0 +1,11 @@
+{
+  "animes": [
+    {
+      "id": 1,
+      "nome": "Dororo",
+      "genero": "Ação",
+      "nota": "7",
+      "imgUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/2018/12/dororo-poster.jpg"
+    }
+  ]
+}

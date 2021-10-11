@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/styler.css" />
+    <!-- INICIO da Importação da fonte do TÍTULO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FIM da Importação da fonte do TÍTULO -->
+
+    <!-- INICIO da Importando da fonte do CADASTRO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FIM da Importando da fonte do CADASTRO -->
+    <title>Cadastrar Filmes</title>
+  </head>
+  <body>
+    <section id="container-superior">
+      <div id="barra-superior">
+        <div id="nome-menu">Meus Animes</div>
+      </div>
+    </section>
+    <!-- INICIO DO CADASTRO -->
+    <section>
+      <form onsubmit="submitForm(event)" id="form">
+        <div id="container-form">
+          <div id="container-input">
+            <div id="cadastrar-anime">
+              Cadastrar
+              <div id="cadastro-anime"><h4>Anime</h4></div>
+            </div>
+            <input
+              class="inputs"
+              type="text"
+              placeholder="Informe o nome do anime"
+              for="nome"
+              id="nome"
+              required
+            />
+            <input
+              class="inputs"
+              type="text"
+              placeholder="Informe o gênero do anime"
+              for="genero"
+              id="genero"
+              required
+            />
+            <input
+              class="inputs"
+              type="text"
+              placeholder="Informe a nota do anime"
+              for="nota"
+              id="nota"
+              required
+            />
+            <input
+              class="inputs"
+              type="url"
+              placeholder="Informe a url do anime"
+              for="url"
+              id="url"
+              required
+            />
+            <div id="container-btn-enviar">
+              <button id="btn-enviar" onsubmit="cadastraAnime(event)" type="submit">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- FIM DO CADASTRO -->
+
+    <!-- INICIO DO CARD -->
+    <section>
+      <form class="">
+        <div id="card-container">
+          <div id="card-informacoes">
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- FIM DO CARD -->
+    <script src="../../front-and/script/index.js"></script>
+  </body>
+</html>
